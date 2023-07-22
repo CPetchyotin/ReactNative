@@ -6,16 +6,17 @@ import LotsOfGreeting from './Components/LotsOfGreeting'
 import MyCustomText from './Components/MyCustomText'
 import Counter from './Components/Counter'
 import MyInput from './Components/MyInput'
-import Form from './Components/Form.js'
-
+import Form from './Components/Form.Js'
 import IncrementCounter from './Components/IncrementCounter'
+import Login from './Components/Login'
 const App = () => {
   return( 
     <View style ={styles.container}>
     {/* <Counter/> */}
     {/* {<MyInput/>} */}
     {/* <IncrementCounter/> */}
-    <Form/>
+    {/* <Form/> */}
+    <Login/>
     </View>
   )
 }
