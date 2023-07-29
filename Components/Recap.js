@@ -12,7 +12,7 @@ const[email,setEmail] = useState('')
     <View style = {styles.container}>
       <TextInput
         placeholder='Enter email'
-         style={styles.textInputStyle}
+         style={styles.input}
          value={email}
          onChangeText={(value) => {
           setEmail(value);
@@ -21,7 +21,7 @@ const[email,setEmail] = useState('')
         <Text>{'\n'}</Text>
         <TextInput
         placeholder='Enter Password'
-        style={styles.textInputStyle}
+        style={styles.input}
         value={password}
         onChangeText={(value) => {
          setPassword(value)
@@ -42,8 +42,8 @@ const[email,setEmail] = useState('')
 export default Recap
 
 const styles = StyleSheet.create({
-    Container: {
-        paddingTop: 23  
+    container: {
+        paddingTop:23  
     },
     input: {
         margin:15,
