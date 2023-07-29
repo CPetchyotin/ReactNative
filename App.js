@@ -9,6 +9,7 @@ import MyInput from './Components/MyInput'
 import Form from './Components/Form.Js'
 import IncrementCounter from './Components/IncrementCounter'
 import Login from './Components/Login'
+import Recap from './Components/Recap'
 const App = () => {
   return( 
     <View style ={styles.container}>
@@ -16,7 +17,8 @@ const App = () => {
     {/* {<MyInput/>} */}
     {/* <IncrementCounter/> */}
     {/* <Form/> */}
-    <Login/>
+    {/* <Login/> */}
+    <Recap/>
     </View>
   )
 }
