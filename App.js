@@ -2,10 +2,12 @@ import { View, Text ,StyleSheet} from 'react-native'
 import React from 'react'
 import TouchableExample from './Components/TouchableExample'
 import RandomUsersScreen from './Components/RandomUsersScreen'
+import FlatList_Example from './Components/FlatList_Example'
+import FlatList_HeaderFooter from './Components/FlatList_HeaderFooter'
 const App = () => {
   return (
     <View >
-      <RandomUsersScreen/>
+      <FlatList_HeaderFooter/>
     </View>
   )
 }
