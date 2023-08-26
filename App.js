@@ -5,11 +5,12 @@ import RandomUsersScreen from './Components/RandomUsersScreen'
 import FlatList_Example from './Components/FlatList_Example'
 // import FlatList_HeaderFooter from './Components/FlatList_HeaderFooter'
 // import FlastListAPI from './Components/FlastListAPI'
-import News from './Components/News'
+// import News from './Components/News'
+import ProductScreen from './Components/ProductScreen'
 const App = () => {
   return (
     <View >
-      <News/>
+      <ProductScreen/>
     </View>
   )
 }
