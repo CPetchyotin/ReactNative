@@ -23,3 +23,17 @@ const ThirdPage = () => {
 }
 
 export default ThirdPage
+
+const styles = StyleSheet.create({
+    container: {
+    flex: 1,
+    padding: 16,
+    alignItems: 'center',
+    justifyContent: 'center',
+    },
+    textStyle: {
+    fontSize: 25,
+    textAlign: 'center',
+    marginBottom: 16
+    },
+    })

@@ -6,7 +6,11 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack'
 const FirstPage = () => {
   return (
     <View>
-      <Text>This is the First Page of the App</Text>
+      <Text>This is the First Page of the App{'\n'}</Text>
+        <Button
+        titleitle='GO TO SECOND PAGE'
+        onPress={()=>navigation.push('SecondPage')}
+        />
     </View>
   )
 }
